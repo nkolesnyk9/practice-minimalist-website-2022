@@ -1,13 +1,15 @@
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
+body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
 }
+
+
 
 :root {
   --main-color: #f8b281;
@@ -17,29 +19,6 @@ html {
 @font-face {
   font-family: "argonite";
   src: url("./assets/stone\ orgonite.woff");
-}
-section {
-  padding: 5%;
-}
-
-h2 {
-  font-size: 2.5rem;
-  line-height: 125%;
-  padding: 1rem 0rem;
-}
-h3 {
-  font-size: 1.25rem;
-  line-height: 125%;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-nav svg {
-  cursor: pointer;
-  z-index: 10;
 }
 
 .links {
@@ -60,10 +39,30 @@ nav svg {
   font-size: 2rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+  line-height: 125%;
+  padding: 1rem 0rem;
+}
+h3 {
+  font-size: 1.25rem;
+  line-height: 125%;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav svg {
+  cursor: pointer;
+  z-index: 10;
+}
 .logo {
   display: flex;
   align-items: center;
 }
+
 .logo h1 {
   margin-left: 0.5rem;
   font-size: 1rem;
@@ -78,6 +77,11 @@ nav svg {
   min-height: 100vh;
   color: white;
 }
+
+section { 
+  padding: 5%;
+}
+
 .selling-point {
   margin-top: 25vh;
   font-family: "argonite", sans-serif;
@@ -88,6 +92,7 @@ nav svg {
   font-family: sans-serif;
   text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.49);
 }
+
 .ctas {
   margin-top: 2rem;
 }
@@ -111,7 +116,6 @@ nav svg {
   background-color: var(--secondary-color);
   color: white;
 }
-
 .hero {
   position: absolute;
   left: 0;
@@ -182,4 +186,4 @@ nav svg {
   .about h2 {
     text-align: start;
   }
-}
+}  
